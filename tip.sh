@@ -4,6 +4,8 @@ lww_keys[0]='tar 0'
 lww_keys[1]='find 1'
 lww_keys[2]='path 2'
 lww_keys[3]='命令行快捷键 3'
+lww_keys[4]='csv 4'
+
 
 
 lww_tips[0]='压缩前什么样子解压后就是什么样子，不会自建目录\n
@@ -27,6 +29,8 @@ Ctrl + e ：移到命令行尾 \n
 Ctrl + 左右方向键 ：按单词移动 \n
 Ctrl + k ：从光标处删除至命令行尾 \n
 Ctrl + u ：从光标处删除至命令行首 \n'
+
+lww_tips[4]='https://segmentfault.com/a/1190000009179225\n'
 
 
 
