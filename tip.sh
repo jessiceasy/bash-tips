@@ -5,6 +5,10 @@ lww_keys[1]='find 1'
 lww_keys[2]='path 2'
 lww_keys[3]='命令行快捷键 3'
 lww_keys[4]='csv 4'
+lww_keys[5]='vim 5'
+lww_keys[6]='vim替换 6'
+lww_keys[7]='vim删除 7'
+
 
 
 
@@ -31,6 +35,27 @@ Ctrl + k ：从光标处删除至命令行尾 \n
 Ctrl + u ：从光标处删除至命令行首 \n'
 
 lww_tips[4]='https://segmentfault.com/a/1190000009179225\n'
+
+lww_tips[5]='vim替换\n
+vim删除 \n
+vim快捷键 \n'
+
+lww_tips[6]='全局替换:%s/old/new/g\n
+替换当前行:s/old/new/g\n
+替换从当前光标开始第一个匹配到的:s/old/new/\n
+匹配替换50到100行:50,100s/old/new/g\n
+空格\s'
+
+lww_tips[7]='全局删除匹配到的行:g/pattern/d\n
+删除第1-10行里的匹配到的行:1,10g/pattern/d\n
+删除匹配不到的行:g!/pattern/d\n
+删除光标以下n行: n dd\n
+删除空格行:g/^[\s]*\n/d\n
+删除n到m行: n,m d\n
+单行第n行：n（待删除行）d\n
+空格\s'
+
+
 
 
 
