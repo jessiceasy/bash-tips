@@ -3,7 +3,7 @@
 lww_keys[0]='tar 0'
 lww_keys[1]='find 1'
 lww_keys[2]='path 2'
-lww_keys[3]='命令行 3'
+lww_keys[3]='命令行快捷键 3'
 
 
 lww_tips[0]='压缩前什么样子解压后就是什么样子，不会自建目录\n
