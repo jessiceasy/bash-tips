@@ -50,7 +50,7 @@ lww_tips[7]='全局删除匹配到的行:g/pattern/d\n
 删除第1-10行里的匹配到的行:1,10g/pattern/d\n
 删除匹配不到的行:g!/pattern/d\n
 删除光标以下n行: n dd\n
-删除空格行:g/^[\s]*\\n/d\n
+删除空格行:g/^[\s]*\\\n/d\n
 删除n到m行: n,m d\n
 单行第n行：n（待删除行）d\n
 空格\s'
