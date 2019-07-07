@@ -2,7 +2,9 @@
 
 lww_keys[0]='tar 0'
 lww_keys[1]='find 1'
-lww_keys[a]='path 2'
+lww_keys[2]='path 2'
+lww_keys[3]='命令行 3'
+
 
 lww_tips[0]='压缩前什么样子解压后就是什么样子，不会自建目录\n
 tar -czvf ***.tar.gz 要压缩的文件或目录 #gz\n
@@ -19,6 +21,12 @@ find find *.c -exec cp "'"{}"'" /tmp \; #拷贝查找结果至tmp  "\;"为固定
 lww_tips[2]='环境变量设置，脚本转化的可执行文件建议放在~/.path下面\n
 zsh 在 ~/.zshrc 结尾增加 export PATH=~/.path:$PATH \n
 bash 在 ~/.bashrc 结尾增加 export PATH=~/.path:$PATH \n'
+
+lww_tips[3]='Ctrl + a ：移到命令行首\n
+Ctrl + e ：移到命令行尾 \n
+Ctrl + 左右方向键 ：按单词移动 \n
+Ctrl + k ：从光标处删除至命令行尾 \n
+Ctrl + u ：从光标处删除至命令行首 \n'
 
 
 
