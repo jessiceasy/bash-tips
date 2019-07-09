@@ -9,6 +9,7 @@ lww_keys[5]='vim 5'
 lww_keys[6]='vim替换 6'
 lww_keys[7]='vim删除 7'
 lww_keys[8]='shell脚本转二进制 8'
+lww_keys[9]='curl 9'
 
 
 
@@ -57,6 +58,11 @@ lww_tips[7]='全局删除匹配到的行:g/pattern/d\n
 空格\s'
 
 lww_tips[8]='gzexe 脚本文件名\n'
+
+lww_tips[9]='curl url #直接显示网页内容\n
+curl url > filename #将网页内容写入文件  \n
+curl -O(大写O) http://www.linux.com/dodo[1-5].JPG  #循环下载，保存为默认名字 \n
+curl -o(小写o) filename http:www.linux.com/dodo1.JPG #下载并保存为filename \n'
 
 
 
