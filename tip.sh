@@ -10,6 +10,7 @@ lww_keys[6]='vim替换 6'
 lww_keys[7]='vim删除 7'
 lww_keys[8]='shell脚本转二进制 8'
 lww_keys[9]='curl 9'
+lww_keys[10]='chmod 10'
 
 
 
@@ -63,6 +64,9 @@ lww_tips[9]='curl url #直接显示网页内容\n
 curl url > filename #将网页内容写入文件  \n
 curl -O(大写O) http://www.linux.com/dodo[1-5].JPG  #循环下载，保存为默认名字 \n
 curl -o(小写o) filename http:www.linux.com/dodo1.JPG #下载并保存为filename \n'
+
+
+lww_tips[10]='r=4 w=2 x=1'
 
 
 
