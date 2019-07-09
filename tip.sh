@@ -78,7 +78,6 @@ if [ "$isfind" = false ]; then
   for element in ${lww_keys[@]}
   do
     echo $element
-    echo "\n"
   done
 fi
 
