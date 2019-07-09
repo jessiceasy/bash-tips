@@ -8,6 +8,7 @@ lww_keys[4]='csv 4'
 lww_keys[5]='vim 5'
 lww_keys[6]='vim替换 6'
 lww_keys[7]='vim删除 7'
+lww_keys[8]='shell脚本转二进制 8'
 
 
 
@@ -54,6 +55,8 @@ lww_tips[7]='全局删除匹配到的行:g/pattern/d\n
 删除n到m行: n,m d\n
 单行第n行：n（待删除行）d\n
 空格\s'
+
+lww_tips[8]='gzexe 脚本文件名\n'
 
 
 
