@@ -75,9 +75,9 @@ for i in "${!lww_keys[@]}"; do
 done
 
 if [ "$isfind" = false ]; then
-  for element in ${lww_keys[@]}
-  do
-    echo ${($element)[0]}
+  for i in "${!lww_keys[@]}"; do
+    element=(${lww_keys[$i]})
+    echo ${element[0]}
   done
 fi
 
