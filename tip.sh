@@ -59,7 +59,7 @@ lww_tips[7]='全局删除匹配到的行:g/pattern/d\n
 
 
 
-
+isfind=false
 for i in "${!lww_keys[@]}"; do
   keysplt=(${lww_keys[$i]})
   if [ $1 = ${keysplt[0]} ]
@@ -69,6 +69,12 @@ for i in "${!lww_keys[@]}"; do
 	for element in $res 
 	do
 	    echo ${lww_tips[$element]}
+	    isfind=true
 	done
   fi
 done
+
+if [ "$isfind" = false ]; then
+  echo ${lww_keys[@]}
+fi
+
