@@ -77,7 +77,7 @@ done
 if [ "$isfind" = false ]; then
   for element in ${lww_keys[@]}
   do
-    echo ($element)[0]
+    echo ${($element)[0]}
   done
 fi
 
