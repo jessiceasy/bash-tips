@@ -14,7 +14,7 @@ lww_keys[10]='chmod 10'
 lww_keys[11]='cpu100% 11'
 lww_keys[12]='pidstat 12'
 lww_keys[13]='进制转换 13'
-lww_keys[14]='jstat 14'
+lww_keys[14]='jstack 14'
 lww_keys[15]='jmap 15'
 lww_keys[16]='jstat 16'
 
