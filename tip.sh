@@ -17,6 +17,7 @@ lww_keys[13]='进制转换 13'
 lww_keys[14]='jstack 14'
 lww_keys[15]='jmap 15'
 lww_keys[16]='jstat 16'
+lww_keys[17]='jinfo 17'
 
 
 
@@ -113,6 +114,13 @@ lww_tips[15]='一、风险提示\n
 参考 https://github.com/lwwjxz/Blogs/blob/master/java/jvm/tool.md \n'
 
 lww_tips[16]='https://blog.csdn.net/u012998254/article/details/81045414 \n'
+
+lww_tips[17]='-flag <name>         to print the value of the named VM flag \n
+-flag [+|-]<name>    to enable or disable the named VM flag 不是所有参数都能在运行时改变的\n
+-flag <name>=<value> to set the named VM flag to the given value  不是所有参数都能在运行时改变的 \n
+-flags               to print VM flags \n
+-sysprops            to print Java system properties \n
+<no option>          to print both of the above \n'
 
 
 
