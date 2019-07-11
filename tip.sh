@@ -12,7 +12,7 @@ lww_keys[8]='shell脚本转二进制 8'
 lww_keys[9]='curl 9'
 lww_keys[10]='chmod 10'
 lww_keys[11]='cpu100% 11'
-lww_keys[12]='cpu100% 12'
+lww_keys[12]='pidstat 12'
 
 
 
