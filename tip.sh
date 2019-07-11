@@ -106,7 +106,9 @@ lww_tips[14]='-F 强制输出\n
 -l 除堆外显示关于锁的附加信息 \n
 -m 调用到本地方法的话可以显示C/C++的堆栈\n'
 
-lww_tips[15]='一、风险提示\n
+lww_tips[15]='1. -finalizerinfo #显示再F-Queue中等待Finalizer线程执行finalize方法的对象。只在linux平台有效 \n
+2. -heap 显示java堆详细信息，如使用哪种回收器，参数配置，分代状况等  \n
+一、风险提示\n
 1. jmap -dump 这个命令执行，JVM会将整个heap的信息dump写入到一个文件，heap如果比较大的话，就会导致这个过程比较耗时，并且执行的过程中为了保证dump的信息是可靠的，所以会暂停应用。 \n
 2. jmap -permstat 这个命令执行，JVM会去统计perm区的状况，这整个过程也会比较的耗时，并且同样也会暂停应用。 \n
 3. jmap -histo:live 这个命令执行，JVM会先触发gc，然后再统计信息。 上面的这三个操作都将对应用的执行产生影响，所以建议如果不是很有必要的话，不要去执行。 \n
