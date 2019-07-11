@@ -11,6 +11,8 @@ lww_keys[7]='vim删除 7'
 lww_keys[8]='shell脚本转二进制 8'
 lww_keys[9]='curl 9'
 lww_keys[10]='chmod 10'
+lww_keys[11]='cpu100% 11'
+lww_keys[12]='cpu100% 12'
 
 
 
@@ -65,8 +67,19 @@ curl url > filename #将网页内容写入文件  \n
 curl -O(大写O) http://www.linux.com/dodo[1-5].JPG  #循环下载，保存为默认名字 \n
 curl -o(小写o) filename http:www.linux.com/dodo1.JPG #下载并保存为filename \n'
 
-
 lww_tips[10]='r=4 w=2 x=1'
+
+lww_tips[11]='方法一\n
+1. top找到占用CPU最高的进程   \n
+1.  \n
+https://juejin.im/post/5d25f1d6f265da1b7638caaf \n'
+
+lww_tips[12]='-u 默认的参数，显示各个进程的CPU使用统计\n
+-r 显示各个进程的内存使用统计 \n
+-d 显示各个进程的IO使用情况 \n
+-p 指定进程号 \n
+-w 显示每个进程的上下文切换情况 \n
+-t 显示选择任务的线程的统计信息外的额外信息 \n'
 
 
 
