@@ -107,7 +107,8 @@ lww_tips[15]='一、风险提示\n
 3. jmap -histo:live 这个命令执行，JVM会先触发gc，然后再统计信息。 上面的这三个操作都将对应用的执行产生影响，所以建议如果不是很有必要的话，不要去执行。 \n
 二、 风险较小的方案:可以用gcore [pid]直接保留，这个的执行速度会比jmap -dump快不少，之后可以再用jmap/jstack等从core dump文件里提取相应的信息，不过这个操作建议大家先测试下，貌似在有些jdk版本上不work \n
 1. gcore -o filename pid # 指定要生成的文件路径和名称 \n
-2. jmap -dump:format=b,file=dump.hprof /usr/bin/java corename #生成java的dump文件  \n'
+2. jmap -dump:format=b,file=dump.hprof /usr/bin/java corename #生成java的dump文件  \n
+参考 https://github.com/lwwjxz/Blogs/blob/master/java/jvm/tool.md \n'
 
 
 
