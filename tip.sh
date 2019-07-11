@@ -16,6 +16,8 @@ lww_keys[12]='pidstat 12'
 lww_keys[13]='进制转换 13'
 lww_keys[14]='jstat 14'
 lww_keys[15]='jmap 15'
+lww_keys[16]='jstat 16'
+
 
 
 
@@ -109,6 +111,10 @@ lww_tips[15]='一、风险提示\n
 1. gcore -o filename pid # 指定要生成的文件路径和名称 \n
 2. jmap -dump:format=b,file=dump.hprof /usr/bin/java corename #生成java的dump文件  \n
 参考 https://github.com/lwwjxz/Blogs/blob/master/java/jvm/tool.md \n'
+
+lww_tips[16]='https://blog.csdn.net/u012998254/article/details/81045414 \n'
+
+
 
 
 
