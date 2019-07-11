@@ -71,7 +71,14 @@ lww_tips[10]='r=4 w=2 x=1'
 
 lww_tips[11]='方法一\n
 1. top找到占用CPU最高的进程   \n
-1.  \n
+2. pidstat -p <PID> -u -t 1 3 #查找线程线程的消耗1秒统计一次总共统计3次 \n
+3. jstack -l PID  /temp/test.log #查看当前线程的信息\n
+方法二 arthas \n
+1. thread 1 #显示线上1的运行堆栈 \n
+2. thread -n 2 #显示当前最忙的2个线程 \n
+3. thread #显示所有线程的信息 \n
+4. thread -b #显示当前阻塞其他线程的所有线程 \n
+5. thread thread -n 3 -i 1000 #显示当前最忙的3个线程 并且每1000毫秒统计一次\n
 https://juejin.im/post/5d25f1d6f265da1b7638caaf \n'
 
 lww_tips[12]='-u 默认的参数，显示各个进程的CPU使用统计\n
