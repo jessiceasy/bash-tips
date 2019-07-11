@@ -87,7 +87,9 @@ lww_tips[11]='方法一\n
 3. thread #显示所有线程的信息 \n
 4. thread -b #显示当前阻塞其他线程的所有线程 \n
 5. thread thread -n 3 -i 1000 #显示当前最忙的3个线程 并且每1000毫秒统计一次\n
-https://juejin.im/post/5d25f1d6f265da1b7638caaf \n'
+可能原因  \n
+1. 死循环\n
+2. 频繁GC \n'
 
 lww_tips[12]='-u 默认的参数，显示各个进程的CPU使用统计\n
 -r 显示各个进程的内存使用统计 \n
