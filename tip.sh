@@ -15,6 +15,7 @@ lww_keys[11]='cpu100% 11'
 lww_keys[12]='pidstat 12'
 lww_keys[13]='进制转换 13'
 lww_keys[14]='jstat 14'
+lww_keys[15]='jmap 15'
 
 
 
@@ -28,7 +29,9 @@ tar -xjvf ***.tar.bz2 #解压bz2\n'
 lww_tips[1]='find  -mindepth 1  -maxdepth 2 -not -name init.sh -o -name  "aaa*" #搜索范围是从第一层到第二次包括第一层和第二层，是一个全局的限制即逻辑符号-a,-o前后都管用\n
 find -maxdepth 1 -not -name init.sh # 逻辑not\n
 find -maxdepth 1 -not -name init.sh -a -not -name "bbbb*"   #逻辑与\n
-find -maxdepth 2  -not -name init.sh -o -not -name "bbbb*"  #逻辑或\n
+find -maxdepth 2  -not -name init.sh -o -not -name "bbbb*"  #逻辑或\n 
+-type d #查找目录 \n 
+-type f #查找文件 \n
 find find *.c -exec cp "'"{}"'" /tmp \; #拷贝查找结果至tmp  "\;"为固定格式  需要将大括号外面的双引号变为改为单引号\n'
 
 lww_tips[2]='环境变量设置，脚本转化的可执行文件建议放在~/.path下面\n
@@ -95,6 +98,16 @@ lww_tips[13]='printf %d 0xac #16转10\n
 printf %x 172 #10转16 \n'
 
 lww_tips[14]='-F 强制输出\n
+-l 除堆外显示关于锁的附加信息 \n
+-m 调用到本地方法的话可以显示C/C++的堆栈\n'
+
+lww_tips[15]='风险提示\n
+1. jmap -dump 这个命令执行，JVM会将整个heap的信息dump写入到一个文件，heap如果比较大的话，就会导致这个过程比较耗时，并且执行的过程中为了保证dump的信息是可靠的，所以会暂停应用。 \n
+2. jmap -permstat 这个命令执行，JVM会去统计perm区的状况，这整个过程也会比较的耗时，并且同样也会暂停应用。 \n
+3. jmap -histo:live 这个命令执行，JVM会先触发gc，然后再统计信息。 上面的这三个操作都将对应用的执行产生影响，所以建议如果不是很有必要的话，不要去执行。 \n
+风险较小的方案:可以用gcore [pid]直接保留，这个的执行速度会比jmap -dump快不少，之后可以再用jmap/jstack等从core dump文件里提取相应的信息，不过这个操作建议大家先测试下，貌似在有些jdk版本上不work \n
+gcore pid 生成的core命令默认在 \n
+-l 除堆外显示关于锁的附加信息 \n
 -l 除堆外显示关于锁的附加信息 \n
 -m 调用到本地方法的话可以显示C/C++的堆栈\n'
 
