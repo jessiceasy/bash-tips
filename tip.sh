@@ -13,6 +13,7 @@ lww_keys[9]='curl 9'
 lww_keys[10]='chmod 10'
 lww_keys[11]='cpu100% 11'
 lww_keys[12]='pidstat 12'
+lww_keys[13]='进制转换 13'
 
 
 
@@ -88,6 +89,9 @@ lww_tips[12]='-u 默认的参数，显示各个进程的CPU使用统计\n
 -w 显示每个进程的上下文切换情况 \n
 -t 显示选择任务的线程的统计信息外的额外信息 \n
 pidstat -p 798 -u -t 1 3 #查找线程线程的消耗1秒统计一次总共统计3次\n'
+
+lww_tips[13]='printf %d 0xac #16转10\n
+printf %x 172 #10转16 \n'
 
 
 
