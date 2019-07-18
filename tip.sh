@@ -143,7 +143,7 @@ bashdb \n'
 
 lww_tips[21]='sed "s/my/Hao Chen/g" pets.txt（s为替换命令，g表示行中的所有匹配到的内容都替换）\n
 sed 's/^/#/g' pets.txt  #在行前面增加#，^表示行首 \n
-sed 's/$/ --- /g' pets.txt  #在行前面增加#，$表示行首 \n
+sed 's/$/h/g' pets.txt  #在行尾增加h \n
 sed "3s/my/your/g" pets.txt #匹配第三行 \n
 sed "3,6s/my/your/g" pets.txt #匹配第三到六行 \n
 sed "6,$s/my/your/g" pets.txt #匹配第6行到最后一行 \n
