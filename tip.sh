@@ -141,9 +141,16 @@ lww_tips[19]='~~被删除的内容~~\n'
 lww_tips[20]='bash -x xxx.sh 如果xxx.sh中执行的脚本yyy.sh则需要 用bash -x yyy.sh的方式执行才能使yyy.sh也显示调试信息。 要显示文件名行号等可以在shell中执行export PS4='+${BASH_SOURCE}:${LINENO}:${FUNCNAME[0]}: '只在当前 窗口中有效，也可以加载xxx.sh中。https://coolshell.cn/articles/1379.html\n
 bashdb \n'
 
-
-lww_tips[21]='bash -x xxx.sh 如果xxx.sh中执行的脚本yyy.sh则需要 用bash -x yyy.sh的方式执行才能使yyy.sh也显示调试信息。 要显示文件名行号等可以在shell中执行export PS4="'"+${BASH_SOURCE}:${LINENO}:${FUNCNAME[0]}: "'"只在当前 窗口中有效，也可以加载xxx.sh中。https://coolshell.cn/articles/1379.html\n
-bashdb \n'
+lww_tips[21]='sed "s/my/Hao Chen's/g" pets.txt（s为替换命令，g表示行中的所有匹配到的内容都替换）\n
+sed 's/^/#/g' pets.txt  #在行前面增加#，^表示行首 \n
+sed 's/$/ --- /g' pets.txt  #在行前面增加#，$表示行首 \n
+sed "3s/my/your/g" pets.txt #匹配第三行 \n
+sed "3,6s/my/your/g" pets.txt #匹配第三到六行 \n
+sed "6,$s/my/your/g" pets.txt #匹配第6行到最后一行 \n
+sed "$s/my/your/1" pets.txt #替换每行匹配到的第一个 \n
+sed "$s/my/your/1,3" pets.txt #替换每行匹配到的第一到三个 \n
+sed "$s/my/your/3g" pets.txt #替换每行匹配到的第三个到所有 \n
+更详细参考:   https://coolshell.cn/articles/9104.html\n'
 
 
 
