@@ -20,7 +20,8 @@ lww_keys[16]='jstat 16'
 lww_keys[17]='jinfo 17'
 lww_keys[18]='gc日志解释 18'
 lww_keys[19]='markdown删除线 19'
-lww_keys[19]='shelldebug 20'
+lww_keys[20]='shelldebug 20'
+lww_keys[21]='sed 21'
 
 
 
@@ -62,6 +63,7 @@ lww_tips[6]='全局替换:%s/old/new/g\n
 替换当前行:s/old/new/g\n
 替换从当前光标开始第一个匹配到的:s/old/new/\n
 匹配替换50到100行:50,100s/old/new/g\n
+语法跟sed的基本一样的\n
 空格\s'
 
 lww_tips[7]='全局删除匹配到的行:g/pattern/d\n
@@ -136,7 +138,11 @@ lww_tips[18]='https://blog.csdn.net/oDaiLiDong/article/details/80764479\n'
 lww_tips[19]='~~被删除的内容~~\n'
 
 
-lww_tips[19]='bash -x xxx.sh 如果xxx.sh中执行的脚本yyy.sh则需要 用bash -x yyy.sh的方式执行才能使yyy.sh也显示调试信息。 要显示文件名行号等可以在shell中执行export PS4="'"+${BASH_SOURCE}:${LINENO}:${FUNCNAME[0]}: "'"只在当前 窗口中有效，也可以加载xxx.sh中。https://coolshell.cn/articles/1379.html\n
+lww_tips[20]='bash -x xxx.sh 如果xxx.sh中执行的脚本yyy.sh则需要 用bash -x yyy.sh的方式执行才能使yyy.sh也显示调试信息。 要显示文件名行号等可以在shell中执行export PS4="'"+${BASH_SOURCE}:${LINENO}:${FUNCNAME[0]}: "'"只在当前 窗口中有效，也可以加载xxx.sh中。https://coolshell.cn/articles/1379.html\n
+bashdb \n'
+
+
+lww_tips[21]='bash -x xxx.sh 如果xxx.sh中执行的脚本yyy.sh则需要 用bash -x yyy.sh的方式执行才能使yyy.sh也显示调试信息。 要显示文件名行号等可以在shell中执行export PS4="'"+${BASH_SOURCE}:${LINENO}:${FUNCNAME[0]}: "'"只在当前 窗口中有效，也可以加载xxx.sh中。https://coolshell.cn/articles/1379.html\n
 bashdb \n'
 
 
