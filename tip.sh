@@ -155,7 +155,8 @@ sed "$s/my/your/3g" pets.txt #替换每行匹配到的第三个到所有 \n
 更详细参考:   https://coolshell.cn/articles/9104.html\n'
 
 lww_tips[22]=' 测试配置文件语法错误 nginx -t -c 配置文件路径 \n
-使修改的配置生效:/usr/local/nginx/sbin/nginx -s reload  \n'
+使修改的配置生效:/usr/local/nginx/sbin/nginx -s reload  \n
+更详细参考:   https://github.com/lwwjxz/Blogs/tree/master/nginx \n'
 
 
 
