@@ -22,6 +22,7 @@ lww_keys[18]='gc日志解释 18'
 lww_keys[19]='markdown删除线 19'
 lww_keys[20]='shelldebug 20'
 lww_keys[21]='sed 21'
+lww_keys[21]='nginx 22'
 
 
 
@@ -152,6 +153,9 @@ sed "$s/my/your/1" pets.txt #替换每行匹配到的第一个 \n
 sed "$s/my/your/1,3" pets.txt #替换每行匹配到的第一到三个 \n
 sed "$s/my/your/3g" pets.txt #替换每行匹配到的第三个到所有 \n
 更详细参考:   https://coolshell.cn/articles/9104.html\n'
+
+lww_tips[22]=' 测试配置文件语法错误 nginx -t -c 配置文件路径 \n
+使修改的配置生效:/usr/local/nginx/sbin/nginx -s reload  \n'
 
 
 
