@@ -22,7 +22,8 @@ lww_keys[18]='gc日志解释 18'
 lww_keys[19]='markdown删除线 19'
 lww_keys[20]='shelldebug 20'
 lww_keys[21]='sed 21'
-lww_keys[21]='nginx 22'
+lww_keys[22]='nginx 22'
+lww_keys[23]='idea 层次结构 23'
 
 
 
@@ -157,6 +158,10 @@ sed "$s/my/your/3g" pets.txt #替换每行匹配到的第三个到所有 \n
 lww_tips[22]=' 测试配置文件语法错误 nginx -t -c 配置文件路径 \n
 使修改的配置生效:/usr/local/nginx/sbin/nginx -s reload  \n
 更详细参考:   https://github.com/lwwjxz/Blogs/tree/master/nginx \n'
+
+lww_tips[23]=' Control + H 显示当前类的层次结构 \n
+Command + Shift + H 显示方法层次结构 \n
+Control + Option + H 显示调用层次结构 \n'
 
 
 
