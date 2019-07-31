@@ -165,7 +165,7 @@ Command + Shift + H 显示方法层次结构 \n
 Control + Option + H 显示调用层次结构 \n'
 
 
-lww_tips[24]='centos安装 \n
+lww_tips[24]='centos安装  yum intall rar\n
 rar e *****.rar 压缩 \n
 rar x *****.rar 解压 \n'
 
