@@ -25,6 +25,7 @@ lww_keys[21]='sed 21'
 lww_keys[22]='nginx 22'
 lww_keys[23]='idea 层次结构 23'
 lww_keys[24]='rar 24'
+lww_keys[25]='vim移动光标 25'
 
 
 
@@ -168,6 +169,11 @@ Control + Option + H 显示调用层次结构 \n'
 lww_tips[24]='centos安装  https://blog.csdn.net/Dream_angel_Z/article/details/45870189 \n
 rar e *****.rar 压缩 \n
 rar x *****.rar 解压 \n'
+
+
+lww_tips[25]=':number 移动到number行 \n
+shift+6(^)  移动到当前行首 \n
+数字+shift+6(^) 移动到从当前行往下第”数字“行行尾，不输入”数字“默认移动到当前行尾 \n'
 
 
 
