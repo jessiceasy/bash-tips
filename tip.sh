@@ -26,6 +26,7 @@ lww_keys[22]='nginx 22'
 lww_keys[23]='idea 层次结构 23'
 lww_keys[24]='rar 24'
 lww_keys[25]='vim移动光标 25'
+lww_keys[26]='zk 26'
 
 
 
@@ -174,6 +175,10 @@ rar x *****.rar 解压 \n'
 lww_tips[25]=':number 移动到number行 \n
 shift+6(^)  移动到当前行首 \n
 数字+shift+6(^) 移动到从当前行往下第”数字“行行尾，不输入”数字“默认移动到当前行尾 \n'
+
+lww_tips[26]='zkServer.sh start|start-foreground|stop|restart|status|upgrade|print-cmd # 默认根据文件zkServer.sh 的相对路径../conf/zoo.cfg作为配置文件来执行 \n
+111 \n
+111 \n'
 
 
 
