@@ -39,11 +39,11 @@ tar -czvf ***.tar.gz 要压缩的文件或目录 #gz\n
 tar -cjvf ***.tar.bz2 要压缩的文件或目录 #bz2\n
 tar -xzvf ***.tar.gz  #解压gz\n
 tar -xjvf ***.tar.bz2 #解压bz2\n
-decompression speed (fast > slow): gzip, zip > 7z > rar > bzip2
-compression speed (fast > slow): gzip, zip > bzip2 > 7z > rar
-compression ratio (better > worse): 7z > rar, bzip2 > gzip > zip
-availability (unix): gzip > bzip2 > zip > 7z > rar
-availability (windows): zip > rar > 7z > gzip, bzip2'
+decompression speed (fast > slow): gzip, zip > 7z > rar > bzip2\n
+compression speed (fast > slow): gzip, zip > bzip2 > 7z > rar\n
+compression ratio (better > worse): 7z > rar, bzip2 > gzip > zip\n
+availability (unix): gzip > bzip2 > zip > 7z > rar\n
+availability (windows): zip > rar > 7z > gzip, bzip2\n'
 
 lww_tips[1]='find  -mindepth 1  -maxdepth 2 -not -name init.sh -o -name  "aaa*" #搜索范围是从第一层到第二次包括第一层和第二层，是一个全局的限制即逻辑符号-a,-o前后都管用\n
 find -maxdepth 1 -not -name init.sh # 逻辑not\n
