@@ -27,7 +27,7 @@ lww_keys[23]='idea 层次结构 23'
 lww_keys[24]='rar 24'
 lww_keys[25]='vim移动光标 25'
 lww_keys[26]='zk 26'
-lww_keys[27]='zk disk'
+lww_keys[27]='disk 27'
 
 
 
