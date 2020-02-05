@@ -28,6 +28,7 @@ lww_keys[24]='rar 24'
 lww_keys[25]='vim移动光标 25'
 lww_keys[26]='zk 26'
 lww_keys[27]='disk 27'
+lww_keys[28]='airport 28'
 
 
 
@@ -189,6 +190,10 @@ lww_tips[26]='zkServer.sh start|start-foreground|stop|restart|status|upgrade|pri
 lww_tips[27]='df -h 查看磁盘占用 \n
 find / -type f -size +1000000k  查找大于1G的文件 \n
 du -h --max-depth=1 .  指定文件夹和深度查看文件大小 \n'
+
+
+
+lww_tips[28]="sudo kill -9 `ps aux | grep -v grep | grep /usr/libexec/airportd | awk '{print $2}'`\n"
 
 
 
