@@ -193,7 +193,7 @@ du -h --max-depth=1 .  指定文件夹和深度查看文件大小 \n'
 
 
 
-lww_tips[28]="sudo kill -9 `ps aux | grep -v grep | grep /usr/libexec/airportd | awk '{print $2}'`\n"
+lww_tips[28]='sudo kill -9 \`ps aux | grep -v grep | grep /usr/libexec/airportd | awk \'{print $2}\'\`\n'
 
 
 
