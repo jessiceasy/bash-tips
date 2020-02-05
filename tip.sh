@@ -34,6 +34,8 @@ lww_keys[28]='airport 28'
 
 
 
+jiangehao='`'
+danyinhao="'"
 
 
 lww_tips[0]='压缩前什么样子解压后就是什么样子，不会自建目录\n
@@ -192,9 +194,11 @@ find / -type f -size +1000000k  查找大于1G的文件 \n
 du -h --max-depth=1 .  指定文件夹和深度查看文件大小 \n'
 
 
+airport1='sudo kill -9 '
+airport2='ps aux | grep -v grep | grep /usr/libexec/airportd | awk '
+airport3='{print $2}'
 
-lww_tips[28]='sudo kill -9 \`ps aux | grep -v grep | grep /usr/libexec/airportd | awk \'{print $2}\'\`\n'
-
+lww_tips[28]=${airport1}${jiangehao}${airport2}${danyinhao}${airport3}${danyinhao}${jiangehao}'\n'    
 
 
 
