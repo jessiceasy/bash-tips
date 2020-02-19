@@ -29,6 +29,7 @@ lww_keys[25]='vim移动光标 25'
 lww_keys[26]='zk 26'
 lww_keys[27]='disk 27'
 lww_keys[28]='airport 28'
+lww_keys[29]='nohup 29'
 
 
 
@@ -201,6 +202,7 @@ airport3='{print $2}'
 lww_tips[28]=${airport1}${jiangehao}${airport2}${danyinhao}${airport3}${danyinhao}${jiangehao}'\n'    
 
 
+lww_tips[29]='nohup x 2>&1 & \n'
 
 
 
