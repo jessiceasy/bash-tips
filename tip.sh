@@ -31,7 +31,6 @@ lww_keys[27]='disk 27'
 lww_keys[28]='airport 28'
 lww_keys[29]='nohup 29'
 lww_keys[30]='ls 30'
-lww_keys[31]='sed 31'
 
 
 
@@ -168,6 +167,7 @@ sed "6,$s/my/your/g" pets.txt #匹配第6行到最后一行 \n
 sed "$s/my/your/1" pets.txt #替换每行匹配到的第一个 \n
 sed "$s/my/your/1,3" pets.txt #替换每行匹配到的第一到三个 \n
 sed "$s/my/your/3g" pets.txt #替换每行匹配到的第三个到所有 \n
+sed -i .bak "s/oldString/newString/g" `ls`  -i .bak 表示把源文件备份为后缀为.bak的文件  `ls` 间隔号表示把间隔号之间的命令执行结果当参数 \n
 更详细参考:   https://coolshell.cn/articles/9104.html\n'
 
 lww_tips[22]=' 测试配置文件语法错误 nginx -t -c 配置文件路径 \n
@@ -205,7 +205,6 @@ lww_tips[28]=${airport1}${jiangehao}${airport2}${danyinhao}${airport3}${danyinha
 lww_tips[29]='nohup x 2>&1 & \n'
 lww_tips[30]='ls -1  是一不是l\n'
 
-lww_tips[31]='sed -i .bak "s/oldString/newString/g" `ls`  -i .bak 表示把源文件备份为后缀为.bak的文件  `ls` 间隔号表示把间隔号之间的命令执行结果当参数 \n'
 
 
 isfind=false
